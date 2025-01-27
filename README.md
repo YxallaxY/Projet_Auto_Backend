@@ -47,6 +47,9 @@ php -S 0.0.0.0:8080 -t public
 
 
 Commandes utilisées :
+```bash
 docker compose run --rm php bin/console make:entity
 docker compose run --rm php bin/console make:migration
 docker compose run --rm php bin/console make:controller
+docker compose run --rm php bin/console make:command AddDataCommand
+```
